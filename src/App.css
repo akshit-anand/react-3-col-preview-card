@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  background-color: hsl(0, 0%, 95%);
+}
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 100px 250px;
+}
+@media (max-width: 600px) {
+  .flex-container {
+    flex-direction: column;
+    padding: 20px;
+  }
+}
+.flex-item {
+  padding: 50px;
+  height: 500px;
+}
+.item1 {
+  background-color: hsl(31, 77%, 52%);
+}
+.item2 {
+  background-color: hsl(184, 100%, 22%);
+}
+.item3 {
+  background-color: hsl(179, 100%, 13%);
+}
+h1 {
+  color: hsl(0, 0%, 95%);
+}
+p {
+  line-height: 2;
+  margin-bottom: 80px;
+  color: hsla(0, 0%, 100%, 0.75);
+}
+a.button {
+  padding: 15px 30px;
+  border-radius: 35px;
+  background-color: hsl(0, 0%, 95%);
+  text-decoration: none;
+  border: 2px solid transparent;
+  transition: 0.5s;
+}
+.button:hover {
+  background-color: transparent;
+  color: hsl(0, 0%, 95%);
+  border: 2px solid hsl(0, 0%, 95%);
+}
+.button1 {
+  color: hsl(31, 77%, 52%);
+}
+.button2 {
+color: hsl(184, 100%, 22%);
+}
+.button3 {
+  color: hsl(179, 100%, 13%);
+}
+.attribution {
+  text-align: center;
+}
